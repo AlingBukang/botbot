@@ -1,0 +1,29 @@
+{
+  "name": "botbot",
+  "version": "0.0.1",
+  "description": "BotBot helps us diagnose API Incidents",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@hapi/hapi": "^18.4.0",
+    "@slack/events-api": "^2.3.0",
+    "@slack/web-api": "^5.6.0",
+    "forever": "^1.0.0"
+  },
+  "dependencies": {
+    "@slack/bolt": "^1.5.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "http": "0.0.0",
+    "node-localstorage": "^2.1.5",
+    "request": "^2.88.0"
+  }
+}
